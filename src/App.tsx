@@ -1,27 +1,41 @@
-<section>
-  <h2>Deliverables</h2>
+function App() {
+  return (
+    <div className="container">
+      <h1>FlyRank Portfolio Proof</h1>
 
-  <p>
-    GitHub Repository:
-    <br />
-    <a
-      href="https://github.com/AhmedDev374/FlyRank-Proof-Portfolio"
-      target="_blank"
-      rel="noreferrer"
-    >
-      https://github.com/AhmedDev374/FlyRank-Proof-Portfolio
-    </a>
-  </p>
+      <p className="subtitle">
+        Week 1 - Backend AI Engineering Track
+      </p>
 
-  <p>
-    Live Demo:
-    <br />
-    <a
-      href="https://fly-rank-proof-portfolio.vercel.app/"
-      target="_blank"
-      rel="noreferrer"
-    >
-      https://fly-rank-proof-portfolio.vercel.app/
-    </a>
-  </p>
-</section>
+      <section>
+        <h2>Deliverables</h2>
+
+        <p>
+          GitHub Repository:
+          <br />
+          <a
+            href="https://github.com/AhmedDev374/FlyRank-Proof-Portfolio"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub Link
+          </a>
+        </p>
+
+        <p>
+          Live Demo:
+          <br />
+          <a
+            href="https://fly-rank-proof-portfolio.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Demo Link
+          </a>
+        </p>
+      </section>
+    </div>
+  )
+}
+
+export default App
